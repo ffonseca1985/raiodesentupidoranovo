@@ -2030,6 +2030,21 @@ textarea.form-control {
     .form-inline .custom-control-label {
       margin-bottom: 0; } }
 
+
+.block-left
+{
+  float: left;
+}
+
+.margin-2{
+  margin-left: 2%;
+}
+
+.margin-btn
+{
+  padding: 21px 10px !important
+}
+
 .btn {
   display: inline-block;
   font-weight: 400;
