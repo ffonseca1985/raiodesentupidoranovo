@@ -1,32 +1,37 @@
 var AWS = require("aws-sdk");
 var publicacoes = require("./publicacoes");
 
-exports.handler = async function (event, context, callback) 
-{
-//    console.log("Received event:", JSON.stringify(event, null, 2));
+exports.handler = async function (event, context, callback) {
+    //    console.log("Received event:", JSON.stringify(event, null, 2));
 
-    let mensagem = {
-        name: event.name,
-        email: event.email,
-        tel: event.tel,
-        message: event.message
-    };
-    
+    let mensagem = {}
+
+    if (event.body !== null && event.body !== undefined) {
+        
+        let body = JSON.parse(event.body)
+        
+        mensagem = {
+            name: body.name,
+            email: body.email,
+            tel: body.tel,
+            message: body.message
+        };
+    }
+
     var response = {
         event: event,
-        headers:{
+        headers: {
             'Access-Control-Allow-Origin': '*',
             'Access-Control-Allow-Credentials': true,
         }
     };
 
-    try 
-    {
+    try {
         await publicacoes.sendEmail(mensagem)
         await publicacoes.sendSMS(mensagem);
 
         response.statusCode = 200;
-    } 
+    }
     catch (error) {
         response.statusCode = 500;
     }

@@ -1,2 +1,12 @@
 RewriteEngine on
 RewriteRule ^/quemsomos$ /about.html [NC]
+
+Redirect 301 /quemsomos https://raiodesentupidora.com.br/about.html
+Redirect 301 /contato https://raiodesentupidora.com.br/contact.html
+Redirect 301 /artigos https://raiodesentupidora.com.br/cases.html
+Redirect 301 /desentupidora-em-guarulhos https://raiodesentupidora.com.br
+Redirect 301 /desentupimento-guarulhos https://raiodesentupidora.com.br
+Redirect 301 /servicos https://raiodesentupidora.com.br/practice-area.html
+Redirect 301 /desentupidora-24-horas-zona-leste https://raiodesentupidora.com.br
+Redirect 301 /desentupidora-de-esgoto-no-jacana https://raiodesentupidora.com.br
+Redirect 301 /desentupidora-em-sao-paulo https://raiodesentupidora.com.br

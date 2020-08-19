@@ -2,7 +2,7 @@ var AWS = require("aws-sdk");
 
 var sendSMS = (mensagem) => 
 {
-    let sms = `Nova mensagem vinda do site: Raio Desentupidora. \n Tel: ${mensagem.tel} \n Nome: ${mensagem.name}`
+    let sms = `Raio Desentupidora. \n Tel: ${mensagem.tel} \n Nome: ${mensagem.name} \n Email: ${mensagem.email}`
 
     var sns = new AWS.SNS({ region: 'us-east-1' });
 
