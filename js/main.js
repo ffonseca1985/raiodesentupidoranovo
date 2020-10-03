@@ -2,14 +2,14 @@
 
 	"use strict";
 
-	$(window).stellar({
-    responsive: true,
-    parallaxBackgrounds: true,
-    parallaxElements: true,
-    horizontalScrolling: false,
-    hideDistantElements: false,
-    scrollProperty: 'scroll'
-  });
+// 	$(window).stellar({
+//     responsive: true,
+//     parallaxBackgrounds: true,
+//     parallaxElements: true,
+//     horizontalScrolling: false,
+//     hideDistantElements: false,
+//     scrollProperty: 'scroll'
+//   });
 
 
 	var fullHeight = function() {
@@ -117,30 +117,30 @@
 	};
 	scrollWindow();
 
-	var counter = function() {
+	// var counter = function() {
 		
-		$('#section-counter, .hero-wrap, .ftco-counter').waypoint( function( direction ) {
+	// 	$('#section-counter, .hero-wrap, .ftco-counter').waypoint( function( direction ) {
 
-			if( direction === 'down' && !$(this.element).hasClass('ftco-animated') ) {
+	// 		if( direction === 'down' && !$(this.element).hasClass('ftco-animated') ) {
 
-				var comma_separator_number_step = $.animateNumber.numberStepFactories.separator(',')
-				$('.number').each(function(){
-					var $this = $(this),
-						num = $this.data('number');
-					$this.animateNumber(
-					  {
-					    number: num,
-					    numberStep: comma_separator_number_step
-					  }, 7000
-					);
-				});
+	// 			var comma_separator_number_step = $.animateNumber.numberStepFactories.separator(',')
+	// 			$('.number').each(function(){
+	// 				var $this = $(this),
+	// 					num = $this.data('number');
+	// 				$this.animateNumber(
+	// 				  {
+	// 				    number: num,
+	// 				    numberStep: comma_separator_number_step
+	// 				  }, 7000
+	// 				);
+	// 			});
 				
-			}
+	// 		}
 
-		} , { offset: '95%' } );
+	// 	} , { offset: '95%' } );
 
-	}
-	counter();
+	// }
+	// counter();
 
 
 	var contentWayPoint = function() {
@@ -181,39 +181,39 @@
 
 
 	
-	// magnific popup
-	$('.image-popup').magnificPopup({
-    type: 'image',
-    closeOnContentClick: true,
-    closeBtnInside: false,
-    fixedContentPos: true,
-    mainClass: 'mfp-no-margins mfp-with-zoom', // class to remove default margin from left and right side
-     gallery: {
-      enabled: true,
-      navigateByImgClick: true,
-      preload: [0,1] // Will preload 0 - before current, and 1 after the current image
-    },
-    image: {
-      verticalFit: true
-    },
-    zoom: {
-      enabled: true,
-      duration: 300 // don't foget to change the duration also in CSS
-    }
-  });
+// 	// magnific popup
+// 	$('.image-popup').magnificPopup({
+//     type: 'image',
+//     closeOnContentClick: true,
+//     closeBtnInside: false,
+//     fixedContentPos: true,
+//     mainClass: 'mfp-no-margins mfp-with-zoom', // class to remove default margin from left and right side
+//      gallery: {
+//       enabled: true,
+//       navigateByImgClick: true,
+//       preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+//     },
+//     image: {
+//       verticalFit: true
+//     },
+//     zoom: {
+//       enabled: true,
+//       duration: 300 // don't foget to change the duration also in CSS
+//     }
+//   });
 
-  $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
-    disableOn: 700,
-    type: 'iframe',
-    mainClass: 'mfp-fade',
-    removalDelay: 160,
-    preloader: false,
+//   $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
+//     disableOn: 700,
+//     type: 'iframe',
+//     mainClass: 'mfp-fade',
+//     removalDelay: 160,
+//     preloader: false,
 
-    fixedContentPos: false
-  });
+//     fixedContentPos: false
+//   });
 
-  $('[data-toggle="popover"]').popover()
-	$('[data-toggle="tooltip"]').tooltip()
+//   $('[data-toggle="popover"]').popover()
+// 	$('[data-toggle="tooltip"]').tooltip()
 
 })(jQuery);
 
