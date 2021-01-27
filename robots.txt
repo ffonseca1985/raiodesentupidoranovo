@@ -1,0 +1,40 @@
+# This virtual robots.txt file was created by the Virtual Robots.txt WordPress plugin: https://www.wordpress.org/plugins/pc-robotstxt/
+#######################################################
+# iRobots.txt SEO
+
+# All Bots
+User-agent: *
+Disallow: /cgi-bin
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /wp-content/
+Disallow: /readme.html
+Disallow: /license.txt
+Disallow: /search/
+Disallow: /*?
+Disallow: /*.php$
+Disallow: /*.js$
+Disallow: /*.inc$
+Disallow: /*.css$
+Disallow: /*.gz$
+Disallow: /*.wmv$
+Disallow: /*.cgi$
+Disallow: /*.xhtml$
+Disallow: /*rurl=*
+Allow: /sitemap.xml.gz$
+Disallow: /css/
+Disallow: /fonts/
+
+
+User-agent: AdsBot-Google
+Allow: /local/*
+
+User-agent: Googlebot
+Disallow: /nogooglebot/
+
+# Google AdSense
+User-agent: Mediapartners-Google
+Disallow: 
+Allow: /
+
+Sitemap: https://www.raiodesentupidora.com.br/sitemap.xml

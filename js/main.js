@@ -20,8 +20,8 @@
 		});
 
 	};
-	fullHeight();
-
+//	fullHeight();
+	$('#ftco-loader').removeClass('show');
 	// loader
 	var loader = function() {
 		setTimeout(function() { 
@@ -30,7 +30,7 @@
 			}
 		}, 1);
 	};
-	loader();
+	//loader();
 
 	var carousel = function() {
 		$('.carousel-testimony').owlCarousel({
@@ -73,9 +73,9 @@
 	});
 
 
-	$('#dropdown04').on('show.bs.dropdown', function () {
-	  console.log('show');
-	});
+	// $('#dropdown04').on('show.bs.dropdown', function () {
+	//   console.log('show');
+	// });
 
 	// scroll
 	var scrollWindow = function() {
@@ -115,7 +115,7 @@
 			}
 		});
 	};
-	scrollWindow();
+	//scrollWindow();
 
 	// var counter = function() {
 		
@@ -171,11 +171,11 @@
 						},  k * 50, 'easeInOutExpo' );
 					});
 					
-				}, 100);
+				}, 1);
 				
 			}
 
-		} , { offset: '95%' } );
+		} , { offset: '100%' } );
 	};
 	contentWayPoint();
 
