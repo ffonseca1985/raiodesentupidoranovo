@@ -12,6 +12,35 @@ Redirect 301 /desentupidora-de-esgoto-no-jacana https://raiodesentupidora.com.br
 Redirect 301 /desentupidora-em-sao-paulo https://raiodesentupidora.com.br
 Redirect 301 /limpeza-de-caixa-d-agua-residencial https://raiodesentupidora.com.br
 
+Redirect 301 /desentupidora-na-zona-norte https://raiodesentupidora.com.br/desentupidora-na-zona-norte.html
+Redirect 301 /desentupidora-na-zona-leste https://raiodesentupidora.com.br/desentupidora-na-zona-leste.html
+Redirect 301 /desentupidora-na-zona-oeste https://raiodesentupidora.com.br/desentupidora-na-zona-oeste.html
+Redirect 301 /desentupidora-na-zona-sul https://raiodesentupidora.com.br/desentupidora-na-zona-sul.html
+Redirect 301 /desentupidora-em-atibaia https://raiodesentupidora.com.br/desentupidora-em-atibaia.html
+Redirect 301 /desentupidora-em-aruja https://raiodesentupidora.com.br/desentupidora-em-aruja.html
+Redirect 301 /desentupidora-em-guarulhos https://raiodesentupidora.com.br/desentupidora-em-guarulhos.html
+Redirect 301 /desentupidora-na-lapa https://raiodesentupidora.com.br/desentupidora-na-lapa.html
+Redirect 301 /desentupidora-em-barueri https://raiodesentupidora.com.br/desentupidora-em-barueri.html
+Redirect 301 /desentupidora-no-abc https://raiodesentupidora.com.br/desentupidora-no-abc.html
+Redirect 301 /grande-sp https://raiodesentupidora.com.br/grande-sp.html
+
+Redirect 301 /limpa-fossa-guarulhos https://raiodesentupidora.com.br
+Redirect 301 /desentupidora-de-esgoto-no-tucuruvi https://raiodesentupidora.com.br
+Redirect 301 /desentupidora-de-esgoto-na-zona-oeste https://raiodesentupidora.com.br
+Redirect 301 /desentupidora-de-esgoto-na-zona-leste https://raiodesentupidora.com.br
+Redirect 301 /desentupidora-de-esgoto-na-zona-norte https://raiodesentupidora.com.br
+Redirect 301 /desentupidora-de-esgoto-na-zona-sul https://raiodesentupidora.com.br
+Redirect 301 /desentupidora-de-esgoto-sp https://raiodesentupidora.com.br
+Redirect 301 /desentupidora-de-esgoto-no-tucuruvi https://raiodesentupidora.com.br
+Redirect 301 /limpa-fossa-24-horas https://raiodesentupidora.com.br
+Redirect 301 /empresa-de-limpa-fossa https://raiodesentupidora.com.br
+Redirect 301 /desentupidora-de-esgoto-no-tucuruvi https://raiodesentupidora.com.br
+
+Redirect 301 /desentupimento-de-esgoto-na-zona-leste https://raiodesentupidora.com.br
+Redirect 301 /desentupimento-de-esgoto-na-zona-sul https://raiodesentupidora.com.br
+Redirect 301 /desentupimento-de-esgoto-na-zona-norte https://raiodesentupidora.com.br
+Redirect 301 /desentupimento-de-esgoto-na-zona-oeste https://raiodesentupidora.com.br
+
 <IfModule mod_deflate.c>
   # Compress HTML, CSS, JavaScript, Text, XML and fonts
   AddOutputFilterByType DEFLATE application/javascript
