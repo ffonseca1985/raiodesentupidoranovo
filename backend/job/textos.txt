@@ -289,3 +289,5 @@ Desentupidora-no-belenzinho
 Desentupidora-no-itaim-paulista
 Desentupidora-no-sapopemba
 Desentupidora-no-tatuape
+desentupidora-continental-2
+desentupidora-de-pias
