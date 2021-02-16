@@ -289,3 +289,7 @@ Desentupidora-no-belenzinho
 Desentupidora-no-itaim-paulista
 Desentupidora-no-sapopemba
 Desentupidora-no-tatuape
+como-desentupir-pia
+como-desentupir-esgoto
+como-desentupir-cano
+como-desentupir-ralo
