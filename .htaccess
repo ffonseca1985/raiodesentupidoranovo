@@ -192,6 +192,7 @@ Redirect 301 /desentupidora-guarulhos-vila-galvao https://raiodesentupidora.com.
 Redirect 301 /desentupidora-guarulhos-jardim-sao-paulo https://raiodesentupidora.com.br/desentupidora-guarulhos-jardim-sao-paulo.html 
 Redirect 301 /desentupidora-guarulhos-lago-dos-patos https://raiodesentupidora.com.br/desentupidora-guarulhos-lago-dos-patos.html 
 Redirect 301 /desentupidora-em-bomsucesso-guarulhos https://www.raiodesentupidora.com.br/desentupidora-em-bomsucesso-guarulhos.html
+Redirect 301 /desentupidora-continental-2 https://www.raiodesentupidora.com.br/desentupidora-continental-2.html 
 
 <IfModule mod_deflate.c>
   # Compress HTML, CSS, JavaScript, Text, XML and fonts
