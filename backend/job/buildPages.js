@@ -2,7 +2,7 @@
 var fs = require('fs'),
     path = require('path'),
     readline = require('readline'),
-    filePathTextos = path.join(__dirname, 'textos.txt'),
+    filePathTextos = path.join(__dirname, 'textos2.txt'),
     filePathModel = path.join(__dirname, 'model.html');
 
 
