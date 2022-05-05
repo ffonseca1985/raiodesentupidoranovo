@@ -27,14 +27,26 @@ $("#btnEnvio").on("click", function(event) {
     var post = $.post(url, JSON.stringify(json), function(){
         alert("Obrigado por escolher nossos serviços - Em breve entraremos em contato!")
         $("#btnEnvio").val("Enviar");
+        limparDados();
     });
 
     post.fail(function(ex){
         console.log(ex)
         alert("Obrigado por escolher nossos serviços - Em breve entraremos em contato!")
         $("#btnEnvio").val("Enviar");
+        limparDados();
     });
 
     event.preventDefault();
-    
+
+    function limparDados(){
+
+        $("#name").val("");
+        $("#email").val("");
+        $("#tel").val("");
+        $("#mensagem").val("");
+    }
+
 });
+
+
